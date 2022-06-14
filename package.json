@@ -1,0 +1,19 @@
+{
+  "name": "localstoragepractise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gitAdd": "git add .",
+    "gitCommit": "git commit -m 'script commit'",
+    "gitPush": "git push -u origin main",
+    "pushToGit": "npm run gitAdd && npm run gitCommit && npm run gitPush"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "type":"module"
+}
