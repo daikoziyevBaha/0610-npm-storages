@@ -19,12 +19,9 @@ const cookie = extractCookie()
 h.textContent = cookie['simpleText']
 
 document.addEventListener('DOMContentLoaded', function() {
-    
     if (cookie['simpleText']){
         cookieText.appendChild(h)
-    } else {
-        cookieText.removeChild(h)
-    }
+    } 
 
     if (localStorage.getItem('darkMode') == 'true') {
         cookieText.classList.add('cookie-dark-mode')
